@@ -98,12 +98,16 @@ a{
     border: 1px solid hsl(300, 67%, 45%);
     color: hsl(300, 84%, 57%);
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:945px) {
 
     .main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap:4em;
+        text-align: start;
+    }
+    .main__text{
+        text-align: start;
     }
 }
 @media screen and (max-width:800px){
